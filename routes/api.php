@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoryController;
 
 Route::get('/user', function (Request $request) {
@@ -16,3 +17,5 @@ Route::prefix('categories')->group(function () {
     Route::patch('{id}', [CategoryController::class, 'update']);
     Route::delete('{id}', [CategoryController::class, 'destroy']);
 });
+
+Route::apiResource('products', ProductController::class);
