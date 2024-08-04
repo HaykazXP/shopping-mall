@@ -15,7 +15,7 @@ Follow these steps to clone and run the project:
    Run the following command to clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/HaykazXP/shopping-mall.git
    ```
 
 2. **Navigate to the Project Directory**
@@ -23,7 +23,7 @@ Follow these steps to clone and run the project:
    Change to the project directory:
 
    ```bash
-   cd <project-directory>
+   cd shopping-mall
    ```
 
 3. **Install Dependencies**
